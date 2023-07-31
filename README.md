@@ -7,10 +7,10 @@
 - [x] Filter
 - [x] IndexOf
 - [x] Includes
-- [ ] Sort
-- [ ] Concat
-- [ ] Every
-- [ ] Join
+- [x] Sort
+- [x] Concat
+- [x] Every
+- [x] Join
 - [ ] Reduce
 - [ ] Find
 - [ ] FindIndex

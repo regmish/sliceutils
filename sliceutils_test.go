@@ -1,6 +1,7 @@
 package sliceutils_test
 
 import (
+	"fmt"
 	"testing"
 
 	s "github.com/shankarregmi/sliceutils"
@@ -101,4 +102,32 @@ func TestArrayIncludes(t *testing.T) {
 		t.Errorf("Expected to not include 'rust'")
 	}
 
+}
+
+func TestArraySort(t *testing.T) {
+	arr := s.Array[int]{100, 3, 20, 5, 10}
+
+	arr.Sort(func(a int, b int) bool {
+		return a < b
+	})
+
+	if arr[0] != 3 {
+		t.Errorf("Expected 100, got %d", arr[0])
+	}
+
+	if arr[4] != 100 {
+		t.Errorf("Expected 4, got %d", arr[1])
+	}
+}
+
+func TestArrayJoin(t *testing.T) {
+	arr := s.Array[string]{"golang", "is", "awesome", "language"}
+
+	str := arr.Join(" ")
+
+	fmt.Printf("%T", str)
+
+	if str != "golang is awesome language" {
+		t.Errorf("Expected 'golang is awesome', got %s", str)
+	}
 }
