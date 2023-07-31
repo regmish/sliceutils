@@ -1,4 +1,4 @@
-# Slice Utils
+# Slice Utils: Useful Array Methods (Copied from JavaScript)
 - [x] Length
 - [x] Push
 - [x] Pop
@@ -20,7 +20,6 @@
 - [ ] Shift
 - [ ] Unshift
 
-## Useful Array Methods (Copied from JavaScript)
 
 ```go
 myArr := Array[int]{1, 2, 3, 4, 5}
