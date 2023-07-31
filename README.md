@@ -20,8 +20,7 @@
 - [ ] Shift
 - [ ] Unshift
 
-
-Frustration of not having Cool Array methods in GO
+## Useful Array Methods (Copied from JavaScript)
 
 ```go
 myArr := Array[int]{1, 2, 3, 4, 5}
