@@ -7,18 +7,18 @@
 - [x] Filter
 - [x] IndexOf
 - [x] Includes
-- [] Sort
-- [] Concat
-- [] Every
-- [] Join
-- [] Reduce
-- [] Find
-- [] FindIndex
-- [] Fill
-- [] Slice
-- [] Reverse
-- [] Shift
-- [] Unshift
+- [ ] Sort
+- [ ] Concat
+- [ ] Every
+- [ ] Join
+- [ ] Reduce
+- [ ] Find
+- [ ] FindIndex
+- [ ] Fill
+- [ ] Slice
+- [ ] Reverse
+- [ ] Shift
+- [ ] Unshift
 
 
 Frustration of not having Cool Array methods in GO
