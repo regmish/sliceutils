@@ -1,4 +1,4 @@
-# Slice Utils: Useful Array Methods (Copied from JavaScript)
+# Slice Utils: Useful Array Methods (Inspired from JavaScript)
 - [x] Length
 - [x] Push
 - [x] Pop
