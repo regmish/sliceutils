@@ -131,3 +131,15 @@ func TestArrayJoin(t *testing.T) {
 		t.Errorf("Expected 'golang is awesome', got %s", str)
 	}
 }
+
+func TestArrayReduce(t *testing.T) {
+	arr := s.Array[int]{1, 2, 3, 4, 5}
+
+	sum := arr.Reduce(func(acc int, el int, idx int, arr s.Array[int]) int {
+		return acc + el
+	}, 0)
+
+	if sum != 15 {
+		t.Errorf("Expected 15, got %d", sum)
+	}
+}

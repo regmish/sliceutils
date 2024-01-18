@@ -110,3 +110,14 @@ func (arr Array[T]) Join(separator string) string {
 
 	return out
 }
+
+// Reduce: Apply a function against an accumulator and each value of the array (from left-to-right) as to reduce it to a single value.
+func (arr Array[T]) Reduce(iterator func(accumulator T, currentValue T, currentIndex int, arr Array[T]) T, initialValue T) T {
+	accumulator := initialValue
+
+	for idx, el := range arr {
+		accumulator = iterator(accumulator, el, idx, arr)
+	}
+
+	return accumulator
+}

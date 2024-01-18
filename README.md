@@ -11,7 +11,7 @@
 - [x] Concat
 - [x] Every
 - [x] Join
-- [ ] Reduce
+- [x] Reduce
 - [ ] Find
 - [ ] FindIndex
 - [ ] Fill
